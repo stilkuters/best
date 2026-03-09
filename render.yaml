@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: best-worker
+    env: docker
+    plan: free
+    autoDeploy: true
